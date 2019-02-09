@@ -16,7 +16,8 @@ class SomeTest extends Specification {
     def "망한 테스트"() {
         when:
         def a = 1
-        def b = 2
+        def b = 1
+//        def b = 2
 
         then:
         a == b

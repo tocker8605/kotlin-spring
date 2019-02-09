@@ -11,12 +11,12 @@ class SomeController {
         return "hello"
     }
 
-    @PostMapping("/post")
+    @PostMapping()
     fun post(): String {
         return "hello"
     }
 
-    @DeleteMapping("/delete")
+    @DeleteMapping()
     fun delete(): String {
         return "hello"
     }
